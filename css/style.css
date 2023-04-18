@@ -1,0 +1,91 @@
+.pricipal {
+    position: relative;
+    width: auto;
+    height: 670px;
+    background: #F3F5FC;
+}
+.logo {
+    position: absolute;
+    display: inline-block;
+    margin: 5%  0 0 7%;
+    
+}
+.texto-cript {
+    position: absolute;
+    background: #F3F5FC ;
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    color:#0A3871;
+    margin: 100px 0 0 240px     ;
+}
+.texto-cript:active {
+    border: none;
+}   
+.rodape {
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: 15%;    
+    margin: 0 0 2% 15%;
+    
+}
+.rodape p {
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    text-align: left;
+
+}
+.botao-cript {
+    width: 40%;
+    padding: 15px 0;
+    background: #0A3871    ;
+    color: #D8DFE8;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+    transition: all 1s;
+    margin: 0 2% 0 0;
+
+}
+.botao-cript:hover {
+    transform: scale(1.05);
+}
+.botao-descript {
+    width: 40%;
+    padding: 15px 0;
+    background: #D8DFE8;
+    color: #0A3871;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+    transition: all 1s;
+
+}
+.botao-descript:hover {
+    transform: scale(1.05);
+}
+.retangulo {
+    background: #FFFFFF;
+    width: 25%;
+    height: 80%;
+    margin: 5% 5% 5%  0;
+    float: right;
+    border-radius: 32px;
+}
+.retangulo input {
+    
+    margin: 100% 15% 15% 10%;
+    border: none;
+    width: 80%;
+    height: 20%;
+    text-align: end;
+}
