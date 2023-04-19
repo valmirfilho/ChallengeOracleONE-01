@@ -105,3 +105,23 @@
     outline: none;
 
 }
+.copiarTexto {
+    width: 40%;
+    padding: 15px 0;
+    background: #0A3871    ;
+    color: #D8DFE8;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 24px;
+    transition: all 0.5s;
+    margin: 0 2% 0 0;
+    cursor: pointer;
+    text-align: left;
+}
+.copiarTexto:hover {
+    transform: scale(1.05);
+}
+.copiarTexto:active {
+    transform: scale(0.9);
+}

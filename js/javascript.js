@@ -43,6 +43,10 @@ function descriptografar(textoParaDescriptografar) {
     return textoDescriptografado;
 }
 
+function copiarTexto() {
+    var texto = document.getElementById("texto-decriptografar").value;
+    navigator.clipboard.writeText(texto);
+  }
 
 const textoCriptografar = document.getElementById("texto-criptografar")
 const enviarCriptografia = document.getElementById("enviar-Criptografia")
